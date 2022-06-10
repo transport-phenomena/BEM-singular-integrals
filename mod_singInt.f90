@@ -14,6 +14,7 @@
 !            linear triangular and quadrilateral boundary elements, 2022
 !            Engineering Analysis with Boundary Elements
 !
+! Author & info: Jure Ravnik, jure.ravnik@um.si
 !
 module singInt
    implicit none
