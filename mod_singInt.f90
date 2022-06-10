@@ -8,9 +8,11 @@
 !           - source point location (vertex or center of element)
 !
 !
-! Module is free to use, provided that citation is given to
+! Module is free to use, provided that the following publication is cited:
 !
-! J. Ravnik:    , 2022, EABE
+! J. Ravnik: Analytic expressions for singular integrals with Stokes and Laplace kernels for 
+!            linear triangular and quadrilateral boundary elements, 2022
+!            Engineering Analysis with Boundary Elements
 !
 !
 module singInt
@@ -240,7 +242,7 @@ module singInt
       
             call tri_area(x5,y5,z5,x1,y1,z1,x2,y2,z2,area)
             call si_tri_lap(x5,y5,z5,x1,y1,z1,x2,y2,z2,area,int1,1)
-      
+
             call tri_area(x5,y5,z5,x2,y2,z2,x3,y3,z3,area)
             call si_tri_lap(x5,y5,z5,x2,y2,z2,x3,y3,z3,area,int2,1)
       
