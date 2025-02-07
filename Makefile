@@ -42,9 +42,4 @@ $(MODOBJECTS): %.o: %.f90
 
 install:
 	cp $(LINS)/$(PROGRAM) $(INST)/$(PROGRAM)-$(VERSION)-$(OPDE)
-	 
-#
-# Instalacija BLAS in LAPAC knjiznic
-# sudo apt-get update
-# sudo apt-get install libblas-dev liblapack-dev
-#	 
+
