@@ -1,4 +1,4 @@
-# BEM-singular-integrals
+# A module to calculate singular integrals arising in BEM
 
 Singular integration for Laplace and Stokes kernels
 for BEM using linear interpolation of function and constant interpolation
@@ -11,6 +11,4 @@ Needed  : - coordinates of element vertices
 
 Module is free to use, provided that the following publication is cited:
 
-J. Ravnik: Analytic expressions for singular integrals with Stokes and Laplace kernels for 
-           linear triangular and quadrilateral boundary elements, 2022
-           Engineering Analysis with Boundary Elements
+Ravnik, Jure. “Analytical Expressions for Singular Integrals Arising from the 3D Laplace and Stokes Kernels When Using Constant or Linear Triangular and Quadrilateral Boundary Elements.” Engineering Analysis with Boundary Elements 154 (September 2023): 47–53. https://doi.org/10.1016/j.enganabound.2023.02.057.
